@@ -1,140 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex">
-    <link rel="stylesheet" href="overall.css">
-    <link rel="stylesheet" href="projekt_2.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="images/favicon-img.png" type="image/x-icon" sizes="16x16">
-    <link rel="icon" href="images/favicon-img.png" type="image/x-icon" sizes="16x16">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="overall.css" />
+    <link rel="stylesheet" href="projekt_2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="images/favicon-img.png" type="image/x-icon" sizes="16x16" />
+    <link rel="icon" href="images/favicon-img.png" type="image/x-icon" sizes="16x16" />
     <title>Min Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="topnav" id="mainNav">
-            <a href="forside.html">Forside</a>
-            <a href="om_mig.html">Om mig</a>
-            <a href="projekt_1.html">Projekt 1</a>
-            <a href="projekt_2.html" class="active">Projekt 2</a>
-            <a href="projekt_3.html">Projekt 3</a>
-            <a href="projekt_4.html">Projekt 4</a>
-            <a href="javascript:void(0);" class="icon" onclick="burgerFunc()">&#9776;</a>
-        </div>
+      <div class="topnav" id="mainNav">
+        <a href="forside.html">Forside</a>
+        <a href="om_mig.html">Om mig</a>
+        <a href="projekt_1.html">Projekt 1</a>
+        <a href="projekt_2.html" class="active">Projekt 2</a>
+        <a href="projekt_3.html">Projekt 3</a>
+        <a href="projekt_4.html">Projekt 4</a>
+        <a href="javascript:void(0);" class="icon" onclick="burgerFunc()">&#9776;</a>
+      </div>
     </header>
     <main>
-        <section class="grid-3">
-            <div class="box-1">
-                <h1>Tema 4. Animation</h1>
-                <h2>Animation spil</h2>
-                <div id="tekst-link">
-                    <a id="link" href="https://eappelby.com/kea/04_animation/website/index.html">Link til spil</a>
-                </div>
-            </div>
+      <section class="grid-3">
+        <div class="box-1">
+          <h1>Tema 4. Animation</h1>
+          <h2>Animation spil</h2>
+          <div id="tekst-link">
+            <a id="link" href="https://eappelby.com/kea/04_animation/website/index.html">Link til spil</a>
+          </div>
+        </div>
         <!-- Container for the image gallery -->
         <div class="box-2">
-
-            <!-- Full-width images with number text -->
-            <div class="mySlides">
+          <!-- Full-width images with number text -->
+          <div class="mySlides">
             <div class="numbertext">1 / 6</div>
-                <img src="images/snowman.png" style="width:100%" alt="snowman">
-            </div>
-        
-            <div class="mySlides">
+            <img src="images/snowman.png" style="width: 100%" alt="snowman" />
+          </div>
+
+          <div class="mySlides">
             <div class="numbertext">2 / 6</div>
-                <img src="images/snowman1.png" style="width:100%" alt="snowman1">
-            </div>
-        
-            <div class="mySlides">
+            <img src="images/snowman1.png" style="width: 100%" alt="snowman1" />
+          </div>
+
+          <div class="mySlides">
             <div class="numbertext">3 / 6</div>
-                <img src="images/startscreen.png" style="width:100%" alt="startscreen">
-            </div>
-        
-            <div class="mySlides">
+            <img src="images/startscreen.png" style="width: 100%" alt="startscreen" />
+          </div>
+
+          <div class="mySlides">
             <div class="numbertext">4 / 6</div>
-                <img src="images/gamescreen.png" style="width:100%" alt="gamescreen">
-            </div>
-        
-            <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        
-            <!-- Image text -->
-            <div class="caption-container">
+            <img src="images/gamescreen.png" style="width: 100%" alt="gamescreen" />
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <!-- Image text -->
+          <div class="caption-container">
             <p id="caption"></p>
-            </div>
-        
-            <!-- Thumbnail images -->
-            <div class="row">
+          </div>
+
+          <!-- Thumbnail images -->
+          <div class="row">
             <div class="column">
-                <img class="demo cursor" src="images/snowman.png" style="width:100%" onclick="currentSlide(1)" alt="spilskærm">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="images/snowman1.png" style="width:100%" onclick="currentSlide(2)" alt="startskærm">
+              <img class="demo cursor" src="images/snowman.png" style="width: 100%" onclick="currentSlide(1)" alt="spilskærm" />
             </div>
             <div class="column">
-                <img class="demo cursor" src="images/startscreen.png" style="width:100%" onclick="currentSlide(3)" alt="startskærm skitse">
+              <img class="demo cursor" src="images/snowman1.png" style="width: 100%" onclick="currentSlide(2)" alt="startskærm" />
             </div>
             <div class="column">
-                <img class="demo cursor" src="images/gamescreen.png" style="width:100%" onclick="currentSlide(4)" alt="spilskærm skitse">
+              <img class="demo cursor" src="images/startscreen.png" style="width: 100%" onclick="currentSlide(3)" alt="startskærm skitse" />
             </div>
+            <div class="column">
+              <img class="demo cursor" src="images/gamescreen.png" style="width: 100%" onclick="currentSlide(4)" alt="spilskærm skitse" />
             </div>
+          </div>
         </div>
         <div class="box-3">
-            <h3>UI elementer</h3>
+          <h3>UI elementer</h3>
         </div>
         <div class="box-4">
-            <img src="images/Spilelement_ild.svg" alt="spilelement_ild">
-            <p>spilelement ild</p>
+          <img src="images/Spilelement_ild.svg" alt="spilelement_ild" />
+          <p>spilelement ild</p>
         </div>
         <div class="box-5">
-            <img src="images/Ransdyr.svg" alt="ransdyr">
-            <p>spilelement ransdyr</p>
+          <img src="images/Ransdyr.svg" alt="ransdyr" />
+          <p>spilelement ransdyr</p>
         </div>
         <div class="box-6">
-            <img src="images/restart_button.svg" alt="restart_button">
-            <p>spilelement restart button</p>
+          <img src="images/restart_button.svg" alt="restart_button" />
+          <p>spilelement restart button</p>
         </div>
         <div class="box-7">
-            <img src="images/snemand.webp" alt="snemand">
-            <p>spilelement snemand</p>
+          <img src="images/snemand.webp" alt="snemand" />
+          <p>spilelement snemand</p>
         </div>
         <div class="box-8">
-            <h3>Mit statemachine diagram</h3>
+          <h3>Mit statemachine diagram</h3>
         </div>
         <div class="box-9">
-            <img src="images/diagram.png" alt="diagram">
+          <img src="images/diagram.png" alt="diagram" />
         </div>
         <div class="box-10">
-            <h4>I tema 4. Skulle jeg animere et spil fra bunden, <br> 
-                via Javascript, HTML og CSS.<br> 
-                Dette betød at jeg startede med at finde ud af hvilket spil<br>
-                jeg ville lave.<br>
-                Derefter designede jeg alle mine UI elementer<br>
-                i Adobe Illustrator. Dertil lavede jeg <br>
-                et statemachine diagram, <br>
-                derved gjorde jeg min arbejdsprocess med at skabe spillet <br>
-                meget nemmere. Jeg optog lyd der skulle tilføjes til <br>
-                elementerne og satte det ind i min kode. <br>
-                <br>
-                Mit spil hedder “Build a snowman” her skal du fange <br>
-                en hat og guleroden, men pas på du ikke fanger ilden, <br>
-                så smelter snemanden. De forskellige elementer <br>
-                falder ned fra toppen af skærmen så du skal være hurtig. <br>
-                <br>
-                Vi sluttede af med en fernisering, <br>
-                hvor hele klassen fik mulighed for at teste hinandens spil.
-            </h4>
+          <h4>
+            I tema 4. Skulle jeg animere et spil fra bunden, <br />
+            via Javascript, HTML og CSS.<br />
+            Dette betød at jeg startede med at finde ud af hvilket spil<br />
+            jeg ville lave.<br />
+            Derefter designede jeg alle mine UI elementer<br />
+            i Adobe Illustrator. Dertil lavede jeg <br />
+            et statemachine diagram, <br />
+            der gjorde min arbejdsprocess med at skabe spillet <br />
+            meget nemmere. Jeg optog lyd der skulle tilføjes til <br />
+            elementerne, lavede dem til mp4 filer og satte det ind i min kode. <br />
+            Vi lærte også at tilpasse SVG filerne til spillet, da det er lavet <br />
+            med vektorgrafik. <br />
+            Derudover lærte jeg at lave animationer med hjælp fra keyframes, <br />
+            samt at bruge Javscript til at få UI elementerne til at reagerer. <br />
+
+            <br />
+            Mit spil hedder “Build a snowman” her skal du fange <br />
+            hatten og guleroden, men pas på du ikke fanger ilden, <br />
+            så smelter snemanden. De forskellige elementer <br />
+            falder ned fra toppen af skærmen så du skal være hurtig. <br />
+            <br />
+            Vi sluttede af med en fernisering, <br />
+            hvor hele klassen fik mulighed for at teste hinandens spil.
+          </h4>
         </div>
-        </section>
+      </section>
     </main>
     <footer>
-        <p>By: eappelby.com</p>
+      <p>By: eappelby.com</p>
     </footer>
     <script src="overall.js"></script>
-</body>
+  </body>
 </html>
